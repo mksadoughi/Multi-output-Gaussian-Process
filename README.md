@@ -27,7 +27,7 @@ In this research, I extended the univariate GP to multivariate GP to handle the 
 You can train a multivariate GP model using the MSRM function.
 
 ```matlab
-MGP = fitrgp(X,Y, option)
+MGP = MRSM(X,Y, option)
 ```
 
 Here,  MGP is the trained model, ```X``` is the matrix of input factors and ```Y``` is the matrix of targets. Option can have one or several attributes:
